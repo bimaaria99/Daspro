@@ -3,7 +3,7 @@ public class latihan09 {
         System.out.println("Nama saya Davinza Aria Bima");
         System.out.println("Belajar Java sangat menyenangkan");
         System.out.println("Semakin Sering Mencoba Semakin Mahir");
-        System.out.print("Belajar java Tidaklah Sulit, yang sulit adalah malas untuk belajar");
-        //System.out.print("Teruslah Berlatih Dan Jangan Pernah Menyerah");
+        System.out.println("Belajar java Tidaklah Sulit, yang sulit adalah malas untuk belajar");
+        System.out.print("Teruslah Berlatih Dan Jangan Pernah Menyerah");
     }   
 }

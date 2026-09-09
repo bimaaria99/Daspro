@@ -1,11 +1,10 @@
-import java.util.Scanner; 
+import java.util.Scanner;
 
 public class studikasus02 {
-    public static void main(String[] args){
-
-         Scanner input = new Scanner(System.in);
+    public static void main(String[] args) {
+        try (Scanner input = new Scanner(System.in)) {
             int jml_tabungan_awal, lama_menabung;
-            double prosentase_bunga =1.02, bunga,jml_tabungan_akhir;
+            double prosentase_bunga = 1.02, bunga, jml_tabungan_akhir;
 
             System.out.println("Masukkan jumlah tabungan awal anda:");
             jml_tabungan_awal = input.nextInt();
@@ -15,10 +14,9 @@ public class studikasus02 {
             bunga = jml_tabungan_awal * prosentase_bunga * lama_menabung;
             jml_tabungan_akhir = jml_tabungan_awal + bunga;
 
-        System.out.println("Bunga adalah : " + bunga);
-        System.out.println("Jumlah tabungan akhir adalah : " + jml_tabungan_akhir);
-        
+            System.out.println("Bunga adalah : " + bunga);
+            System.out.println("Jumlah tabungan akhir adalah : " + jml_tabungan_akhir);
+        }
     }
 }
-              
-       
+

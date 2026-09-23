@@ -9,9 +9,11 @@ public class GajiKaryawan09 {
         
         Scanner sc = new Scanner(System.in);
         System.out.print("Masukkan gaji pokok: ");
+
         gajiPokok = sc.nextInt();
         bonus = 0.05 * gajiPokok;
         double totalGaji = gajiPokok + bonus + tunjTransp + tunjMkn - (0.01 * gajiPokok);
+        
         System.out.println("Bonus bulanan anda adalah Rp. " + bonus);
         System.out.println("gaji yang anda terima adalah Rp. " + totalGaji);
         sc.close();
